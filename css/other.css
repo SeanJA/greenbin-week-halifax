@@ -1,0 +1,49 @@
+  body { text-align: center;}
+  h1 { font-size: 50px; text-align: center }
+  header h1{font-size: 55px;}
+  span[smiley] { -moz-transform: rotate(90deg); -webkit-transform:rotate(90deg); transform: rotate(90deg); display:inline-block; color: #bbb; margin: 0 10px; }
+  body { font: 20px Constantia, "Hoefler Text",  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5); }
+  ::-moz-selection{ background:#5EFF7B; color:#fff; }
+  ::-webkit-selection{ background:#5EFF7B; color:#fff; }
+  ::selection { background:#5EFF7B; color:#fff; }
+  header{ margin-bottom: 1em; }
+  #tips{
+	  margin-bottom: 100px;
+	  margin-top: 50px;
+	  -moz-border-radius: 1em;
+	  -webkit-border-radius: 1em;
+	  border-radius: 1em;
+	  border: 0.1em solid black;
+	  margin: 2em auto 4em auto;
+	  width: 15em;
+  }
+
+  #tips ul{
+	  margin: 1em;
+  }
+
+  #tips li{
+	  display: none;
+	  list-style: none;
+  }
+  #app-list{
+	  margin: 0;
+  }
+  #app-list li{
+	  width: 75px;
+  }
+  
+  #nav{
+	  margin-left: 0;
+	  margin-bottom: 1em;
+  }
+  #nav li{
+	  width: 40px;
+  }
+
+ul.inline{
+	list-style: none;
+	display: inline-block;
+	*display: inline;
+	margin: 10px;
+}
